@@ -1,0 +1,61 @@
+TP 8 — POWER BI / DAX — CINÉ HORIZON
+=======================================
+
+CONTEXTE
+Ce TP poursuit le cas Ciné Horizon de la séance 7, avec des données enrichies
+pour étudier les mesures DAX, les ratios et le contexte de filtre.
+
+FICHIERS
+- FaitsReservations.csv : 2 400 réservations, 2025-01 à 2026-09
+- DimCinema.csv : cinémas, villes et régions
+- DimFilm.csv : films, genres et origines
+- DimCanal.csv : canaux et familles de canaux
+- DimDate.csv : calendrier
+
+IMPORT
+CSV UTF-8 avec BOM, séparateur point-virgule, nombres avec point décimal,
+dates ISO AAAA-MM-JJ. Utiliser les paramètres régionaux adaptés si nécessaire.
+
+MODÈLE
+Créer quatre relations 1:* à filtrage simple des dimensions vers les faits :
+DimCinema[ID_Cinema] -> FaitsReservations[ID_Cinema]
+DimFilm[ID_Film] -> FaitsReservations[ID_Film]
+DimCanal[ID_Canal] -> FaitsReservations[ID_Canal]
+DimDate[Date] -> FaitsReservations[Date]
+
+RÈGLES MÉTIER
+- Statut : « Validée » ou « Annulée ».
+- CA_Net vaut zéro pour une réservation annulée.
+- Cout_Total et Marge_Nette valent également zéro pour une réservation annulée.
+- Cout_Total = Nb_Billets * Cout_Unitaire pour une réservation validée.
+- Marge_Nette = CA_Net - Cout_Total.
+- Le nombre total de réservations inclut les annulations ; les réservations
+  valides les excluent.
+- Les billets vendus correspondent aux billets des réservations validées.
+- Le panier moyen = CA net / nombre de réservations validées.
+- Le taux de marge = marge / coût (différent du taux de marque = marge / CA).
+- La part du CA par genre doit conserver les autres filtres (année, région,
+  canal) et supprimer uniquement le filtre sur le genre.
+- L'année 2026 s'arrête au 30 septembre : éviter les comparaisons annuelles
+  sans alignement de période.
+
+EXERCICES CONSEILLÉS (MESURES DAX)
+1. Réservations totales : COUNTROWS
+2. Réservations validées et annulées : CALCULATE + COUNTROWS
+3. Taux d'annulation : DIVIDE
+4. CA net : SUM
+5. Billets vendus : CALCULATE + SUM
+6. Panier moyen : DIVIDE
+7. Marge nette et taux de marge : SUM et DIVIDE
+8. Clients ? Aucun identifiant client dans ce jeu de données : ne pas calculer
+   de nombre de clients distincts.
+9. Nombre de films distincts réservés : DISTINCTCOUNT
+10. CA digital : CALCULATE avec DimCanal[Famille_Canal]
+11. Part du CA par genre : CALCULATE + REMOVEFILTERS(DimFilm[Genre])
+12. CA des réservations de 3 billets ou plus : CALCULATE ou FILTER
+13. Comparer les mesures par région, genre, canal et année.
+
+IMPORTANT
+La table FaitsReservations est volontairement enrichie par rapport au TP 7.
+Si vous réutilisez le fichier PBIX de la séance 7, remplacez la source des faits
+par ce nouveau CSV, puis actualisez. Sinon, recréez le modèle avec les cinq CSV.

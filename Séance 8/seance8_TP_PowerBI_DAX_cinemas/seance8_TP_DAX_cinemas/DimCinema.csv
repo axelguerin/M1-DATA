@@ -1,0 +1,11 @@
+﻿ID_Cinema;Cinema;Ville;Region;Nb_Salles
+C01;Ciné Horizon Angers;Angers;Ouest;6
+C02;Ciné Horizon Nantes;Nantes;Ouest;6
+C03;Ciné Horizon Rennes;Rennes;Ouest;4
+C04;Ciné Horizon Bordeaux;Bordeaux;Sud-Ouest;4
+C05;Ciné Horizon Toulouse;Toulouse;Sud-Ouest;6
+C06;Ciné Horizon Lyon;Lyon;Sud-Est;6
+C07;Ciné Horizon Marseille;Marseille;Sud-Est;6
+C08;Ciné Horizon Lille;Lille;Nord;4
+C09;Ciné Horizon Paris;Paris;Ile-de-France;6
+C10;Ciné Horizon Strasbourg;Strasbourg;Est;10

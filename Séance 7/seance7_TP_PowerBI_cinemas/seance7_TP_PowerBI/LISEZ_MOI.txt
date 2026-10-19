@@ -1,0 +1,26 @@
+TP 7 — POWER BI FONDAMENTAUX
+===========================
+
+Contexte : réseau fictif de cinémas Ciné Horizon.
+2400 réservations du 01/01/2025 au 30/09/2026, 10 cinémas, 18 films, 4 canaux.
+
+Fichiers CSV (UTF-8 avec BOM, séparateur point-virgule) :
+- FaitsReservations.csv : table de faits, une ligne par réservation, 2400 lignes.
+- DimCinema.csv : 10 cinémas.
+- DimFilm.csv : 18 films.
+- DimCanal.csv : 4 canaux.
+- DimDate.csv : calendrier quotidien, clé Date au format ISO.
+
+RELATIONS ATTENDUES (1 vers plusieurs, filtre simple de la dimension vers les faits) :
+DimCinema[ID_Cinema] -> FaitsReservations[ID_Cinema]
+DimFilm[ID_Film] -> FaitsReservations[ID_Film]
+DimCanal[ID_Canal] -> FaitsReservations[ID_Canal]
+DimDate[Date] -> FaitsReservations[Date]
+
+IMPORTANT : convertir les colonnes Date en type Date (et non texte) dans Power Query.
+Le montant CA_Net est nul pour les réservations annulées. Le nombre de billets comprend aussi les réservations annulées : pour mesurer les billets réellement vendus, filtrer Statut=Validée.
+Les remises sont des fractions (0,10 = 10 %), et les montants sont des nombres décimaux.
+Les données de 2026 s’arrêtent en septembre : éviter une comparaison annuelle brute avec 2025 complet.
+
+OBJECTIFS : importer les cinq CSV, contrôler les types, construire un schéma en étoile, créer un premier rapport (CA, réservations, billets vendus, CA mensuel, CA par région, genres et canaux), ajouter des segments et vérifier les filtres.
+Aucune relation n’est préconstruite : c’est le travail des étudiants.
