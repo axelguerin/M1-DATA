@@ -1,0 +1,164 @@
+﻿ID_Vente;Date_Vente;ID_Produit;ID_Client;Quantite;Prix_Unitaire;Remise;Canal;Statut;Commentaire_Interne
+V00162;22/02/2026;P010;C005;6;69,08;0,00;Magasin;Validée;Vérification interne
+V00163;26/02/2026;P007;C047;7;36,60;0,00;Téléphone;Validée;
+V00164;18/02/2026;P007;C004;2;35,32;0,00;Téléphone;Validée;ancienne référence
+V00165;14/02/2026;P009;C056;4;113,47;0,05;Magasin;Validée;
+V00166;07/02/2026;P001;C016;2;136,35;0,05;Magasin;Validée;
+V00167;16/02/2026;P001;C028;1;140,94;0,10;Téléphone;Validée;
+V00168;12/02/2026;P008;C060;2;85,02;0,05;Web;Validée;ancienne référence
+V00169;26/02/2026;P011;C028;2;27,96;0,00;Web;Annulée;
+V00170;03/02/2026;P002;C024;3;357,21;0,10;Commercial;En attente;ancienne référence
+V00171;28/02/2026;P006;C030;6;30,73;0,00;Commercial;Validée;Vérification interne
+V00172;18/02/2026;P002;C020;4;329,39;0,00;Magasin;Validée;
+V00173;07/02/2026;P004;C001;7;211,73;0,00;Commercial;Validée;ancienne référence
+V00174;11/02/2026;P011;C031;4;26,84;0,10;Magasin;Annulée;ancienne référence
+V00175;04/02/2026;P007;C003;2;33,38;0,05;Web;En attente;
+V00176;16/02/2026;P004;C074;2;224,63;0,15;Magasin;Validée;Vérification interne
+V00177;09/02/2026;P999;C042;3;126,38;0,05;Commercial;Validée;
+V00178;17/02/2026;P011;C055;4;26,63;0,10;Magasin;Validée;
+V00179;05/02/2026;P001;C065;7;143,71;0,10;Téléphone;Validée;
+V00180;28/02/2026;P004;C068;8;213,28;0,00;Commercial;Validée;Vérification interne
+V00181;09/02/2026;P004;C031;7;216,63;0,00;Téléphone;Validée;Vérification interne
+V00182;23/02/2026;P007;C058;5;33,73;0,00;Téléphone;Validée;
+V00183;02/02/2026;P008;C014;1;94,03;0,00;Commercial;Validée;
+V00184;23/02/2026;P003;C049;7;42,39;0,10;Téléphone;Validée;
+V00185;11/02/2026;P007;C005;8;37,62;0,15;Téléphone;Validée;
+V00186;11/02/2026;P009;C067;8;128,63;0,05;Web;Validée;Vérification interne
+V00187;13/02/2026;P001;C063;5;153,17;0,15;Magasin;Validée;ancienne référence
+V00188;25/02/2026;P003;C017;2;43,65;0,15;Web;Validée;Vérification interne
+V00189;18/02/2026;P012;C056;2;473,15;0,10;Web;En attente;Vérification interne
+V00190;12/02/2026;P003;C038;1;42,85;0,00;Commercial;Validée;ancienne référence
+V00191;24/02/2026;P003;C016;8;41,41;0,05;Web;Validée;ancienne référence
+V00192;08/02/2026;P007;C061;6;37,21;0,00;Téléphone;Validée;
+V00193;23/02/2026;P011;C007;;26,98;0,00;Commercial;En attente;ancienne référence
+V00194;28/02/2026;P003;C063;4;42,22;0,05;Téléphone;Validée;ancienne référence
+V00195;02/02/2026;P009;C012;1;113,86;0,00;Magasin;Validée;
+V00196;20/02/2026;P005;C014;5;82,43;0,10;Magasin;Annulée;Vérification interne
+V00197;04/02/2026;P012;C069;2;482,84;0,00;Téléphone;Annulée;Vérification interne
+V00198;09/02/2026;P006;C062;8;28,73;0,00;Téléphone;Validée;
+V00199;09/02/2026;P008;C030;1;89,50;0,00;Commercial;Validée;Vérification interne
+V00200;06/02/2026;P005;C030;8;74,07;0,05;Commercial;Validée;
+V00201;22/02/2026;P001;C999;1;ND;0,00;Commercial;Validée;Vérification interne
+V00202;08/02/2026;P007;C062;1;37,84;0,00;Magasin;Validée;ancienne référence
+V00203;20/02/2026;P001;C071;4;136,78;0,15;Web;En attente;Vérification interne
+V00204;06/02/2026;P006;C064;4;28,67;0,15;Commercial;Validée;
+V00205;03/02/2026;P001;C034;4;156,66;0,05;Magasin;Validée;
+V00206;15/02/2026;P012;C066;;482,84;0,05;Magasin;Annulée;
+V00207;17/02/2026;P001;C058;8;140,79;0,00;Magasin;Validée;ancienne référence
+V00208;17/02/2026;P012;C047;6;499,13;0,10;Magasin;Validée;ancienne référence
+V00209;26/02/2026;P005;C046;4;79,29;0,00;Magasin;En attente;Vérification interne
+V00210;25/02/2026;P010;C022;5;73,04;0,05;Commercial;Validée;
+V00211;05/02/2026;P011;C999;3;26,72;0,00;Magasin;Validée;
+V00212;24/02/2026;P012;C028;7;486,35;0,10;Commercial;Validée;ancienne référence
+V00213;20/02/2026;P012;C054;4;455,29;0,10;Magasin;Validée;
+V00214;11/02/2026;P004;C046;8;220,34;0,10;Magasin;Validée;ancienne référence
+V00215;04/02/2026;P008;C999;8;88,85;0,10;Téléphone;Validée;
+V00216;20/02/2026;P001;C050;4;145,06;0,00;Téléphone;En attente;
+V00217;01/02/2026;P999;C074;7;78,77;0,00;Web;Validée;ancienne référence
+V00218;05/02/2026;P011;C066;2;25,68;0,05;Web;Annulée;Vérification interne
+V00219;05/02/2026;P009;C021;6;121,99;0,00;Téléphone;Validée;
+V00220;11/02/2026;P009;C003;8;121,82;0,00;Magasin;Validée;
+V00221;21/02/2026;P001;C037;5;140,18;0,00;Web;En attente;
+V00222;14/02/2026;P011;C026;6;28,40;0,10;Web;Annulée;
+V00223;21/02/2026;P006;C078;6;30,66;0,15;Commercial;Validée;
+V00224;14/02/2026;P011;C026;1;27,00;0,00;Magasin;Validée;Vérification interne
+V00225;16/02/2026;P001;C003;3;142,92;0,10;Téléphone;Validée;ancienne référence
+V00226;02/02/2026;P004;C061;8;ND;0,00;Commercial;Annulée;
+V00227;10/02/2026;P010;C078;3;64,89;0,00;Web;Validée;
+V00228;18/02/2026;P003;C015;;44,57;0,00;Web;Validée;Vérification interne
+V00229;26/02/2026;P006;C020;8;30,85;0,15;Téléphone;Annulée;
+V00230;04/02/2026;P004;C011;5;227,91;0,00;Téléphone;Validée;
+V00231;03/02/2026;P002;C025;6;324,14;0,05;Téléphone;Validée;
+V00232;17/02/2026;P006;C009;7;31,38;0,00;Téléphone;Validée;ancienne référence
+V00233;10/02/2026;P009;C028;8;114,26;0,00;Commercial;Validée;ancienne référence
+V00234;10/02/2026;P005;C056;7;75,74;0,05;Commercial;Validée;
+V00235;16/02/2026;P009;C002;6;126,43;0,15;Commercial;Validée;
+V00236;09/02/2026;P010;C012;2;70,05;0,00;Commercial;Annulée;
+V00237;27/02/2026;P003;C024;8;ND;0,15;Magasin;Validée;
+V00238;19/02/2026;P011;C066;5;27,53;0,15;Commercial;Validée;Vérification interne
+V00239;25/02/2026;P012;C056;6;499,71;0,00;Magasin;Validée;
+V00240;01/02/2026;P006;C036;2;27,70;0,00;Téléphone;Validée;
+V00241;22/02/2026;P009;C026;;123,32;0,00;Téléphone;Validée;ancienne référence
+V00242;17/02/2026;P003;C022;7;41,31;0,00;Web;En attente;
+V00243;12/02/2026;P008;C051;6;85,15;0,10;Magasin;Validée;
+V00244;21/02/2026;P003;C052;2;ND;0,10;Web;Validée;
+V00245;22/02/2026;P002;C067;6;344,34;0,00;Téléphone;Validée;
+V00246;02/02/2026;P004;C058;3;209,60;0,10;Commercial;Validée;
+V00247;20/02/2026;P008;C039;6;91,60;0,15;Commercial;Validée;
+V00248;03/02/2026;P011;C071;8;28,14;0,10;Téléphone;Validée;Vérification interne
+V00249;10/02/2026;P001;C014;5;154,13;0,05;Magasin;Validée;Vérification interne
+V00250;15/02/2026;P007;C012;8;38,08;0,00;Téléphone;Validée;ancienne référence
+V00251;24/02/2026;P003;C005;1;43,13;0,10;Web;En attente;Vérification interne
+V00252;01/02/2026;P007;C008;3;34,06;0,15;Magasin;Validée;
+V00253;27/02/2026;P006;C012;4;28,20;0,00;Web;En attente;ancienne référence
+V00254;27/02/2026;P004;C003;4;211,87;0,00;Magasin;Validée;
+V00255;14/02/2026;P006;C003;6;28,56;0,15;Téléphone;Validée;ancienne référence
+V00256;20/02/2026;P002;C076;3;347,82;0,05;Magasin;Annulée;ancienne référence
+V00257;06/02/2026;P005;C042;1;76,99;0,15;Magasin;Validée;ancienne référence
+V00258;19/02/2026;P007;C043;5;34,47;0,15;Commercial;Validée;
+V00259;date inconnue;P009;C058;1;123,06;0,10;Commercial;Validée;
+V00260;19/02/2026;P006;C033;3;28,51;0,05;Web;Annulée;
+V00261;20/02/2026;P009;C064;5;117,97;0,15;Téléphone;En attente;Vérification interne
+V00262;12/02/2026;P001;C079;3;157,03;0,15;Commercial;Validée;Vérification interne
+V00263;19/02/2026;P007;C027;4;34,58;0,00;Téléphone;Validée;
+V00264;24/02/2026;P008;C052;6;85,84;0,05;Commercial;Validée;
+V00265;21/02/2026;P012;C064;8;488,33;0,15;Téléphone;Validée;
+V00266;11/02/2026;P001;C038;6;142,86;0,00;Web;Validée;
+V00267;04/02/2026;P011;C045;2;28,94;0,00;Web;Validée;Vérification interne
+V00268;09/02/2026;P004;C047;8;234,29;0,00;Magasin;En attente;
+V00269;14/02/2026;P001;C037;4;152,26;0,10;Web;Validée;Vérification interne
+V00270;23/02/2026;P008;C011;8;95,43;0,10;Magasin;Validée;ancienne référence
+V00271;06/02/2026;P005;C046;5;80,36;0,00;Web;Validée;Vérification interne
+V00272;09/02/2026;P001;C041;7;150,26;0,00;Web;Validée;Vérification interne
+V00273;12/02/2026;P002;C067;8;324,98;0,15;Magasin;En attente;
+V00274;07/02/2026;P012;C013;8;464,73;0,00;Web;Validée;ancienne référence
+V00275;11/02/2026;P005;C059;5;73,56;0,00;Magasin;Validée;Vérification interne
+V00276;21/02/2026;P003;C061;1;45,78;0,05;Magasin;Validée;ancienne référence
+V00277;20/02/2026;P001;C002;1;151,46;0,10;Web;Validée;ancienne référence
+V00278;13/02/2026;P005;C071;5;75,53;0,15;Téléphone;Validée;ancienne référence
+V00279;01/02/2026;P012;C078;5;454,70;0,00;Web;Validée;Vérification interne
+V00280;26/02/2026;P006;C080;2;30,44;0,15;Commercial;Validée;Vérification interne
+V00281;06/02/2026;P009;C038;5;123,01;0,00;Commercial;Validée;
+V00282;12/02/2026;P999;C071;8;43,29;0,15;Commercial;Validée;ancienne référence
+V00283;04/02/2026;P003;C032;6;45,32;0,00;Téléphone;Validée;
+V00284;10/02/2026;P008;C053;7;88,33;0,00;Web;En attente;Vérification interne
+V00285;07/02/2026;P001;C043;1;152,33;0,05;Téléphone;Validée;ancienne référence
+V00286;22/02/2026;P005;C076;2;74,52;0,05;Web;Validée;
+V00287;07/02/2026;P007;C041;2;36,77;0,00;Magasin;Validée;
+V00288;19/02/2026;P009;C072;6;126,38;0,10;Téléphone;Annulée;Vérification interne
+V00289;17/02/2026;P001;C066;8;154,88;0,05;Web;Validée;
+V00290;28/02/2026;P009;C032;6;120,94;0,15;Web;Validée;
+V00291;21/02/2026;P005;C012;3;77,48;0,10;Magasin;Validée;
+V00292;04/02/2026;P004;C025;3;205,12;0,05;Commercial;Validée;Vérification interne
+V00293;13/02/2026;P009;C060;5;118,28;0,15;Téléphone;Validée;
+V00294;12/02/2026;P012;C073;5;498,15;0,00;Magasin;En attente;
+V00295;07/02/2026;P012;C042;;ND;0,00;Commercial;Validée;
+V00296;28/02/2026;P002;C064;7;333,40;0,00;Magasin;Validée;
+V00297;15/02/2026;P005;C017;1;80,05;0,00;Magasin;Validée;ancienne référence
+V00298;27/02/2026;P009;C038;2;129,11;0,15;Web;Validée;
+V00299;09/02/2026;P003;C055;6;41,98;0,15;Commercial;Validée;
+V00300;10/02/2026;P006;C055;8;ND;0,10;Web;Validée;
+V00301;06/02/2026;P005;C010;5;ND;0,00;Magasin;Validée;
+V00302;28/02/2026;P002;C076;4;324,54;0,00;Web;Validée;
+V00303;15/02/2026;P006;C065;3;28,50;0,05;Magasin;Validée;
+V00304;27/02/2026;P010;C042;2;74,69;0,00;Web;Validée;ancienne référence
+V00305;23/02/2026;P001;C038;7;144,31;0,05;Commercial;Validée;ancienne référence
+V00306;20/02/2026;P003;C065;1;43,97;0,00;Web;Validée;
+V00307;12/02/2026;P003;C058;4;40,74;0,00;Magasin;Validée;
+V00308;11/02/2026;P009;C022;8;130,21;0,05;Commercial;Validée;
+V00309;09/02/2026;P009;C076;3;116,36;0,05;Magasin;Validée;
+V00310;06/02/2026;P004;C025;3;221,61;0,00;Téléphone;Validée;Vérification interne
+V00311;24/02/2026;P011;C032;3;29,41;0,10;Web;Validée;
+V00312;14/02/2026;P002;C011;7;323,96;0,10;Web;Validée;
+V00313;09/02/2026;P012;C071;3;452,03;0,05;Web;Validée;
+V00314;14/02/2026;P008;C064;2;95,42;0,00;Magasin;Validée;ancienne référence
+V00315;02/02/2026;P002;C999;3;316,37;0,15;Téléphone;Validée;Vérification interne
+V00316;26/02/2026;P011;C066;5;26,62;0,05;Téléphone;Validée;Vérification interne
+V00317;03/02/2026;P012;C044;4;457,82;0,10;Téléphone;Validée;Vérification interne
+V00318;19/02/2026;P001;C009;2;141,62;0,15;Web;Validée;
+V00319;20/02/2026;P004;C027;4;233,25;0,15;Téléphone;Validée;
+V00320;22/02/2026;P004;C008;4;206,21;0,00;Téléphone;Validée;Vérification interne
+V00321;07/02/2026;P009;C040;3;126,01;0,10;Magasin;Annulée;
+V00322;20/02/2026;P001;C042;2;144,15;0,10;Magasin;Validée;
+V00323;10/02/2026;P005;C048;7;80,48;0,00;Commercial;Validée;ancienne référence
+V00324;13/02/2026;P008;C010;8;89,48;0,00;Magasin;Validée;Vérification interne
